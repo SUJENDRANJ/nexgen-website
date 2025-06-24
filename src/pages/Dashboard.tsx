@@ -1,8 +1,5 @@
 import Navbar from "@/components/Navbar";
-import Sidebar from "@/components/Sidebar";
-import VideoUpload from "@/components/VideoUpload";
 import WorkerHero from "@/components/WorkerHero";
-import WorkerTable from "@/components/WorkerTable";
 
 export default function DashboardLayout() {
   return (
@@ -27,7 +24,7 @@ export default function DashboardLayout() {
 
 import { useState, useRef } from "react";
 import { motion } from "framer-motion";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import { ScrollArea } from "@/components/ui/scroll-area";
 // import { users } from "./data"; // Assume an array of team members
 
