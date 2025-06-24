@@ -159,7 +159,7 @@ const HoverVideoAvatar = ({
 export const users = [
   {
     id: 1,
-    name: "Andrea Smith",
+    name: "Suje J",
     title: "Lead Designer",
     description: "Passionate about clean, user-centered design.",
     image: "/images/suje.jpg",
@@ -170,7 +170,7 @@ export const users = [
 
   {
     id: 2,
-    name: "Andrea Smith",
+    name: "Suje J",
     title: "Lead Designer",
     description: "Passionate about clean, user-centered design.",
     image: "/images/suje.jpg",
@@ -178,7 +178,7 @@ export const users = [
   },
   {
     id: 3,
-    name: "Andrea Smith",
+    name: "Suje J",
     title: "Lead Designer",
     description: "Passionate about clean, user-centered design.",
     image: "/images/suje.jpg",

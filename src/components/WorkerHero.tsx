@@ -1,12 +1,13 @@
 // File: src/components/WorkerHero.tsx
 
 import { useRef, useEffect, useState } from "react";
-import { Button } from "@/components/ui/button";
 
 export default function WorkerHero() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const audioRef = useRef<HTMLAudioElement>(null);
   const [muted, setMuted] = useState(true);
+
+  setMuted(true);
 
   useEffect(() => {
     if (audioRef.current) {
