@@ -156,7 +156,7 @@ const HoverVideoAvatar = ({
   );
 };
 
-export const users = [
+const users = [
   {
     id: 1,
     name: "Suje J",
